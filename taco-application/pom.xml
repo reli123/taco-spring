@@ -15,9 +15,15 @@
 
     <dependencies>
 
+        <!--our modules-->
         <dependency>
             <groupId>hr.obai</groupId>
             <artifactId>taco-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>hr.obai</groupId>
+            <artifactId>ingredient-domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

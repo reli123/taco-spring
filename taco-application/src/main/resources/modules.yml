@@ -1,0 +1,5 @@
+hr:
+  obai:
+    modules:
+      - hr.obai.ingredient.domain
+      - hr.obai.taco.domain

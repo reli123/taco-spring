@@ -39,8 +39,9 @@
 
     <modules>
         <module>taco-commons</module>
-        <module>taco-application</module>
         <module>taco-domain</module>
+        <module>ingredient-domain</module>
+        <module>taco-application</module>
     </modules>
 
     <dependencies>

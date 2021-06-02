@@ -1,7 +1,6 @@
 package hr.obai.tacoapplication.ingredient.domain.repository;
 
 import hr.obai.commons.repository.CrudRepositoryWrapperTemplate;
-import hr.obai.commons.repository.criteria.CriteriaEnhancedSpecificationBuilderTemplate;
 import lombok.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaContext;

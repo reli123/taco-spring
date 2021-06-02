@@ -9,6 +9,6 @@ public class IngredientSpecification extends CriteriaEnhancedSpecificationBuilde
 
     @Override
     public Specification<Ingredient> buildSpecification(IngredientCriteria criteria) {
-        return null;
+        return buildSpecification();
     }
 }

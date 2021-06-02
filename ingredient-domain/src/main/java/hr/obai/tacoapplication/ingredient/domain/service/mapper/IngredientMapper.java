@@ -10,11 +10,19 @@ public class IngredientMapper implements DtoToEntityBidirectionalMapper<Ingredie
 
     @Override
     public IngredientDto toDto(Ingredient ingredient) {
-        return null;
+        IngredientDto dto = new IngredientDto();
+        dto.setName(ingredient.getName());
+        dto.setPrice(ingredient.getPrice());
+        dto.setType(ingredient.getType());
+        return dto;
     }
 
     @Override
-    public Ingredient toEntity(IngredientDto ingredientDto) {
-        return null;
+    public Ingredient toEntity(IngredientDto dto) {
+        Ingredient entity = new Ingredient();
+        entity.setName(dto.getName());
+        entity.setPrice(dto.getPrice());
+        entity.setType(dto.getType());
+        return entity;
     }
 }
